@@ -1,53 +1,62 @@
-# Company-Research-AI-Agent
-Overview
+# **Company Research AI Agent**
 
-The AI-Powered Research Agent is designed to gather and analyze company data using web scraping, API integration, and natural language processing (NLP). It retrieves information on company overviews, financials, employee details, news, social media sentiment, competitor analysis, and growth trends, providing actionable insights for users.
+## **Overview**  
 
-### Features
+The AI-Powered Research Agent gathers and analyzes company data using web scraping, API integration, and natural language processing (NLP). It retrieves insights on company overviews, financials, employee details, news, social media sentiment, competitor analysis, and growth trends to provide actionable intelligence.  
 
-Company Overview: Retrieves key details such as name, industry, location, and market position.
+---
 
-Financial Data: Fetches revenue, stock performance, and financial metrics (if available via APIs).
+## **Features**  
 
-Employee Information: Gathers workforce details, leadership profiles, and hiring trends.
+- 📌 **Company Overview**: Retrieves key details such as name, industry, location, and market position.  
+- 📊 **Financial Data**: Fetches revenue, stock performance, and financial metrics via APIs.  
+- 👥 **Employee Information**: Gathers workforce details, leadership profiles, and hiring trends.  
+- 📰 **News & Sentiment Analysis**: Collects news articles and applies NLP-based sentiment analysis.  
+- 📢 **Social Media Analysis**: Monitors sentiment and trends from platforms like Twitter and LinkedIn.  
+- 🔍 **Competitor Analysis**: Identifies industry competitors and compares key metrics.  
+- 📈 **Growth Trends**: Analyzes historical data for predictive insights.  
 
-News & Sentiment Analysis: Collects news articles and applies NLP-based sentiment analysis.
+---
 
-Social Media Analysis: Monitors sentiment and trends from platforms like Twitter and LinkedIn.
+## **Technology Stack**  
 
-Competitor Analysis: Identifies industry competitors and compares key metrics.
+### 🔹 Backend  
+- Python (Flask)  
 
-Growth Trends: Analyzes historical data for predictive insights.
+### 🔹 APIs Used  
+- Financial APIs (Alpha Vantage, Financial Modeling Prep, etc.)  
+- Social Media APIs  
+- News APIs  
 
-Technology Stack
+### 🔹 Machine Learning  
+- NLP models for sentiment analysis (TextBlob, VADER Sentiment)  
 
-Backend: Python (Flask)
+### 🔹 Frontend  
+- HTML  
+- CSS  
+- JavaScript  
 
-APIs Used: Financial APIs(Alpha Vantage,Financial Modelling Prep etc), Social Media APIs, News APIs
+---
 
-Machine Learning: NLP models for sentiment analysis (TextBlob, vaderSentiment)
+## **Installation**  
 
-Frontend:
-HTML
-CSS
-Javascript
-
-Installation
-
-Clone the repository:
-
+### **1️. Clone the repository**  
+```bash
 git clone https://github.com/yashi-04/Company-Research-AI-Agent.git
 cd ai-research-agent
+```
 
-Install dependencies:
-
+**2. Install dependencies:**
+```bash
 pip install -r requirements.txt
+```
 
-Set up API keys in an .env file
+**3.Set up API keys in an .env file**
 
-Run the application:
-
+**4.Run the application:**
+```bash
 python app.py
+```
 
 #### Usage
 
