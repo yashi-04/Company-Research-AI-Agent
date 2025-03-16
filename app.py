@@ -20,9 +20,9 @@ NEWSAPI_API_KEY = "your_key"
 RAPIDAPI_KEY = "your_key"
 ALPHA_VANTAGE_API_KEY = "your_key"
 reddit = praw.Reddit(
-    client_id="4I3dn752-cDH61wEx75Fwg",
-    client_secret="II6z8v8Un0F7MUMOqxXvWkh5tLxVfw",
-    user_agent="Hot-Network-6667"
+    client_id="client_id",
+    client_secret="client_secret",
+    user_agent="ua"
 )
 
 analyzer = SentimentIntensityAnalyzer()
