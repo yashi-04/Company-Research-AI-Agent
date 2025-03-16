@@ -1,13 +1,10 @@
-from flask import Flask, render_template, request, jsonify
-from flask_cors import CORS
-import time
-import requests
-from collections import Counter
-from bs4 import BeautifulSoup
-import json
-from textblob import TextBlob
-import praw
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+Flask
+flask-cors
+requests
+beautifulsoup4
+textblob
+praw
+pandas
+matplotlib
+seaborn
+vaderSentiment
