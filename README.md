@@ -25,7 +25,7 @@ The AI-Powered Research Agent gathers and analyzes company data using web scrapi
 
 ### 🔹 APIs Used  
 - Financial APIs (Alpha Vantage, Financial Modeling Prep, etc.)  
-- Social Media APIs(Reddit, Future Scope(Twiiter, LinkedIN)
+- Social Media APIs(Reddit, Future Scope(Twitter, LinkedIN)
 - News APIs (NewsAPI)
 
 ### 🔹 Machine Learning  
